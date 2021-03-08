@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Sistema de Cadastro AlugaGenda</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
-    <link rel="stylesheet" href="css/bulma.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <link rel="stylesheet" href="../css/bulma.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/login.css">
 </head>
 
 <body>
@@ -37,7 +37,7 @@
                                 </div>
                             </div>
 
-                            <h2 class="title has-text-grey" aling="Center">Preencha os dados abaixo:</h2>
+                            <h2 class="title has-text-grey" aling="Center">Preencha os dados:</h2>
                             <div class="field">
                                 <div class="control">
                                     <input name="nome" type="text" class="input is-large" placeholder="Nome" autofocus>
