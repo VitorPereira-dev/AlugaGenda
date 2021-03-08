@@ -1,0 +1,486 @@
+/* Importe da Fonte-awesme */
+@import"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css";
+@import"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/js/all.min.js";
+*{
+	margin: 0 auto;
+    border: 0;
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: ghostwhite;
+}
+ul{
+    padding: 0px!important;
+}
+.menu-principal{
+    width: 100%;
+    background-color: #012e40;
+    height: 52px;
+    position: fixed;
+    z-index: 10;
+}
+main, .content{
+    margin: 0 auto;
+    max-width: 980px;
+    width: 100%;
+    position: relative;
+}
+.logo{
+    float: left;
+    padding: 8px 2px 2px 2px;
+    width: 10%;
+    height: 30px;
+}
+.logo p{
+ 	color: ghostwhite;
+    font-size: 30px;
+    border: 0;
+    margin: 0;
+}
+.redes-sociais ul li{
+    margin-left: 25px;
+    display: inline-block;
+    list-style: none;
+    font-size: 22px; 
+    color: ghostwhite;
+}
+.redes-sociais{
+    width: auto;
+    float: right;
+    padding: 10px;
+}
+.styleA a{
+	color: ghostwhite;
+}
+.styleA a:hover{
+	color: #56a1bf;
+	transition: 0.5s all;
+}
+.header-2{
+    background-color: ghostwhite;
+    max-width: 980px;
+    width: 96%;
+    margin: 0 auto;
+    padding: 16px 181px;
+}
+#main01{
+	position: absolute;
+    top: 53px;
+    z-index: 8;
+    background-color: ghostwhite;
+}
+.menu-urls{
+    height: 80px;
+    border-bottom: 3px solid #efefef;
+}
+.menu ul li{
+    display: inline-block;
+    color: #230040;
+    margin-left: 15px;
+    height: 50px;
+    border-bottom: 3px solid #56a1bf;
+}
+.menu ul li:hover{
+    border-bottom: 3px solid #154659;
+    transition: 0.5s all;
+} 
+.menu ul li a:hover{
+    color: #154659;
+    transition: 0.5s all;
+}
+.menu ul li a{
+    color: #56a1bf;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.menu{
+    width: 57%;
+    float: left;
+}
+.busca{
+    width: 40%;
+    float: right;
+}
+.busca input{
+    height: 36px;
+    padding: 1px 2px;
+    width: 340px;
+    background-position: 96%;
+    background-color: ghostwhite;
+    border: 1px solid #a6a6a6
+}
+.col-100{
+    width: 100%;
+    float: left;
+    position: relative;
+}
+#Pesquisa1::-webkit-input-placeholder{
+	color:#a6a6a6;
+	background-color: ghostwhite;
+	font-style: bold;
+	font-size: 15px;
+}
+#icon{
+    position: relative;
+    right: 30px;
+    color:#a6a6a6;
+}
+.slider-principal{
+	width: 100%;
+	height:  70vh;
+    float: left;
+    position: relative;
+    top: 139px;
+}
+.slider-principal img{
+	width: 100%;
+	opacity: 0.96;
+    height: 70vh;
+}
+button.slick-prev{
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url(../img/anterior.png);
+    top: 40%;
+    left: 10%;
+}
+button.slick-next{
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url(../img/proximo.png);
+    top: 40%;
+    right: 10%;
+}
+.slick-list {
+    width: 100%!important;
+}
+.slick-initialized {
+    overflow: hidden;
+}
+.slick-dots li button {
+    font-size: 0px;
+    border: 4px solid #f2f2f2;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.slick-dots{
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left:46%;
+    top:460px;
+}
+li.slick-active button {
+    background: #3a758c;
+} 
+.slick-dots li{
+    padding-left: 10px;
+    display: inline-block;
+}
+.produtos{
+    position: relative;
+    top: 139px;
+    width: 100%;
+    height: 470px;
+    background-color: #012e40;
+}
+.titulo{
+	font-size: 30px;
+    position: absolute;
+    top: 30px;
+    left: 29px;
+    color: ghostwhite;
+}
+.vertodas{
+    font-size: 15px;
+    position: absolute;
+    top: 43px;
+    left: 213px;
+    color: rgb(0, 166, 255);
+}
+.info-produtos{
+	position: relative;
+	top: 95px;
+}
+.box{
+    width: 17%;
+    height: 349px;
+    margin-right: 16px;
+    margin-left: 23px;
+    margin-bottom: 21px;
+    float: left;
+    background-color: ghostwhite;
+}
+.box img{
+    margin-left: 2px;
+    margin-top: 3px;
+    width: 98%;
+    opacity: 0.90;
+    height: 166px;
+}
+.box img:hover{
+    opacity: 1;
+}
+.box h1{
+	font-size: 20px;
+	padding: 0px 5px;
+	color: #8b8b8b;
+}
+.box p{
+	font-size: 18px;
+    padding: 24px 5px;
+	color: #8b8b8b;
+}
+#valor{
+	color:#000;
+	float: left;
+    width: 78%;
+}
+#ver{
+	font-size: 15px;
+    color: #00A6FF;
+    text-align: right;
+    float: left;
+}
+.melhores{
+    position: relative;
+    top: 139px;
+    width: 100%;
+    height: 550px;
+    background-color: #3A758C;
+}
+#titulo-melhor{
+    font-size: 30px;
+    position: absolute;
+    top: 30px;
+    left: 25px;
+    color: ghostwhite;
+}
+.info-melhor{
+    position: relative;
+    top: 100px;
+}
+.box-melhor{
+    width: 18%;
+    height: 367px;
+    margin-right: -49px;
+    margin-left: 181px;
+    margin-bottom: 21px;
+    float: left;
+    background-color: #3A758C;
+}
+.box-melhor img{
+    margin-left: 23px;
+    margin-top: 3px;
+    border-radius: 100px;
+    opacity: 0.9;
+    width: 163px;
+    height: 189px;
+    border:17px solid ghostwhite;
+}
+.box-melhor img:hover{
+    opacity: 1;
+}
+.box-melhor h1{
+   text-align: center;
+   color: ghostwhite;
+}
+.box-melhor p{
+    text-align: center;
+    color: #343F4B;
+    margin-top: 15px;
+ }
+ #vertodas-serv{
+    font-size: 15px;
+    position: absolute;
+    top: 44px;
+    left: 256px;
+    color: rgb(0, 166, 255);
+ }
+ .servicos{
+    position: absolute;
+    top: 139px;
+    width: 100%;
+    height: 640px;
+    background-color: #3A758C;
+ }
+ .servicos h1{
+    font-size: 38px;
+    position: absolute;
+    top: 26px;
+    left: 44%;
+    color: ghostwhite;
+ }
+ .servicos p{
+    font-size: 16px;
+    position: absolute;
+    top: 85px;
+    left: 23%;
+    color: #343F4B;
+ }
+ .imagem-servi{
+    position: relative;
+    width:100%;
+    height:429px;
+    top: 140px;
+}
+.info-servi{
+    width: 10%;
+    height: 100px;
+    margin: 0px 10px 0px 130px;
+    float: left;
+}
+.info-servi p{
+    position: relative;
+    width: 150px;
+    font-size: 17px;
+    text-align: center;
+    top: -37px;
+    left: 0px;
+    border-radius: 0px 100px 100px 0px;
+    background-color: ghostwhite;
+    color: #56A1BF;
+}
+.info-servi p:hover{
+    color: #012E40;
+    transition: 0.5s all;
+}
+.imagem-servi img{
+    width: 229px;
+    height: 419px;
+    border: 7px solid ghostwhite;
+    border-radius: 5px;
+    opacity: 0.9;
+ }
+ .imagem-servi img:hover{
+    opacity: 1;
+    transition: 0.5s all;
+ }
+.footer {
+    position: fixed;
+    top: 628px;
+    height: 30px;
+    background-color: #242526;
+}
+.info-foter li{
+    float: left;
+    font-size: 13px;
+    margin: 8px 30px 10px 30px;
+    color:#a6a6a6;
+}
+.logo-foter{
+    position: absolute;
+    right: 62px;
+    top: 6px;
+    font-size: 20px;
+    color: ghostwhite;
+}
+.info-foter li strong{
+    color:rgb(66, 123, 209) ;
+}
+/* Cores Usadas 
+.color-theme_LOGO-INSTA-1-hex { color: #D8E6F2; }
+.color-theme_LOGO-INSTA-2-hex { color: #012E40; }
+.color-theme_LOGO-INSTA-3-hex { color: #154659; }
+.color-theme_LOGO-INSTA-4-hex { color: #3A758C; }
+.color-theme_LOGO-INSTA-5-hex { color: #56A1BF; }
+*/
+/* Tablet */
+@media (max-width:768px){
+.header-2{
+    width: 51%;
+}
+.menu ul li {
+    height: 45px;
+    margin-left: 25px;
+}
+.menu ul li a {
+    font-size: 14px;
+}
+.menu {
+    width: 70%;
+    position: absolute;
+    right: 31%;
+}
+.busca {
+    width: 64%;
+    position: relative;
+    left: 184px;
+    top: 1px;
+}
+.busca input {
+    height: 42px;
+    width: 219px;
+}
+.redes-sociais {
+    width: auto;
+}
+.logo {
+    padding: 8px 2px 2px 20px;
+}
+.slick-dots {
+    left: 42%;
+    top: 424px;
+}
+.box {
+    width: 28%;
+}
+.box-melhor {
+    width: 25%;
+    margin-right: 33px;
+    margin-left: 25px;
+}
+.box-melhor img {
+    margin-left: 2px;
+}
+.servicos h1 {
+    left: 40%;
+}
+.servicos p {
+    font-size: 14px;
+    left: 7%;
+}
+.info-servi {
+    width: 9%;
+    margin: 0px 166px 0px 10px;
+}
+.imagem-servi img {
+    border: 6px solid ghostwhite;
+}
+.footer {
+    top: 628px;
+}
+.logo-foter {
+    top: 4px;
+}
+.info-foter li {
+    margin: 8px 13px 10px 13px;
+}
+#tirar{
+    display:none ;
+}
+
+
+}
+/* Celular */
+/*@media screen and (max-width:600px){
+
+}*/
